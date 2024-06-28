@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 1.5rem;
+  color: #217060;
+  box-sizing: border-box;
+}
+::selection{
+  background: #303f9f;
+  color: #fff;
+}
+::placeholder{
+  color: #fff;
+}
+img{
+  width: 100%;
+}
+.nav-link:hover{
+  color: #218060;
+}
+.navbar-toggler{
+  outline: none;
+}
+.post-card{
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #284150;
+  color: #287060;
+  padding: 2rem 0;
+}
+.post-btn{
+  border-radius: 0;
+  width: 8rem;
+}
+#contact-btn{
+  border-radius: 30px;
+  padding: 12px 15px;
+}
+.photographs{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.photographs div button{
+  border-radius: 0;
+}
+#form-sec{
+  background: linear-gradient(rgba(33,128,96,0.2),rgba(33,128,96,0.2)), url(bg/1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  
+}
+#form-div{
+  width: 90%;
+  margin: 0 auto;
+}
+#form-sec p,form label, form input, form textarea{
+  color: #fff;
+}
+
+form input, form textarea{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  padding: 15px 5px;
+  margin: 10px 0;
+  width:  100%;
+}
+form textarea{
+  width: 100%
+}
+form input:focus{
+  border: 1px solid #fff;
+}
+.form-btn{
+  background: white;
+  color: #000;
+  border-radius: 0;
+  width: 100%;
+}
+.form-btn:hover{
+  background: #219060;
+  color: #fff;
+}
